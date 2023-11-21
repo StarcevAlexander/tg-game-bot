@@ -30,7 +30,7 @@ const start = async () => {
         try {
             if (text === '/start') {
                 await bot.sendSticker(chatId, 'https://tlgrm.ru/_/stickers/ea5/382/ea53826d-c192-376a-b766-e5abc535f1c9/7.webp')
-                return bot.sendMessage(chatId, `Добро пожаловать в телеграм бот автора ютуб канала ULBI TV`);
+                return bot.sendMessage(chatId, `Добро пожаловать в телеграм бот`);
             }
             if (text === '/info') {
                 return bot.sendMessage(chatId, `Тебя зовут 123, в игре у тебя правильных ответов 0, неправильных 0`);
